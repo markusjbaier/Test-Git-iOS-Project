@@ -21,6 +21,7 @@
 		29CAD7BA19AFDCEF00290420 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29CAD79C19AFDCEE00290420 /* UIKit.framework */; };
 		29CAD7C219AFDCEF00290420 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 29CAD7C019AFDCEF00290420 /* InfoPlist.strings */; };
 		29CAD7C419AFDCEF00290420 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CAD7C319AFDCEF00290420 /* Git_TestTests.m */; };
+		29CAD7CF19AFE01600290420 /* MJBTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CAD7CE19AFE01600290420 /* MJBTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		29CAD7BF19AFDCEF00290420 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		29CAD7C119AFDCEF00290420 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		29CAD7C319AFDCEF00290420 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		29CAD7CD19AFE01600290420 /* MJBTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJBTest.h; sourceTree = "<group>"; };
+		29CAD7CE19AFE01600290420 /* MJBTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJBTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				29CAD7AA19AFDCEE00290420 /* Main.storyboard */,
 				29CAD7AD19AFDCEE00290420 /* MJBViewController.h */,
 				29CAD7AE19AFDCEE00290420 /* MJBViewController.m */,
+				29CAD7CD19AFE01600290420 /* MJBTest.h */,
+				29CAD7CE19AFE01600290420 /* MJBTest.m */,
 				29CAD7B019AFDCEE00290420 /* Images.xcassets */,
 				29CAD79F19AFDCEE00290420 /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				29CAD7A919AFDCEE00290420 /* MJBAppDelegate.m in Sources */,
+				29CAD7CF19AFE01600290420 /* MJBTest.m in Sources */,
 				29CAD7A519AFDCEE00290420 /* main.m in Sources */,
 				29CAD7AF19AFDCEE00290420 /* MJBViewController.m in Sources */,
 			);
